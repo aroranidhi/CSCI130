@@ -1,0 +1,1 @@
+The bug is due to go has a problem with quotation marks with cookies, despite of the fact that they are being allowed by browser. Since it removed the " " JSON is stored incorrectly and it throws an error to the console when running the webpage over a host. 
